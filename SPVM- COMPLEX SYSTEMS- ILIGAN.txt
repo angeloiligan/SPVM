@@ -1,0 +1,32 @@
+Visualizing and Predicting Antimicrobial Resistance: A Python-Based Study in a Clinical Setting
+      
+      Dave Angelo C. Iligan1, Virginio Torlao1,  Edward Aris D. Fajardo1, Ivy T. Casas2, Paul T. Mendez2, Camar P. Ameril2, Beverly B. Amparado2, Fema M. Abamo2
+
+1Department of Physics, Mindanao State University - Main Campus
+9700 Maraw City, Lanao del Sur, Philippines
+
+2Department of Biology, Mindanao State University - Main Campus
+9700 Maraw City, Lanao del Sur, Philippines
+
+
+	Antimicrobial resistance (AMR) is a growing global health concern, especially in hospital environments where bacteria are frequently exposed to antibiotics. This study analyzes resistance patterns in bacterial isolates collected from various areas of a healthcare facility, including pediatric and medical wards, surgical wards, emergency rooms, comfort rooms, and hallways.
+          The research uses a structured and cleaned dataset created by consolidating fragmented laboratory records into a standardized format. Each entry represents a bacterial sample with susceptibility results for multiple antibiotics. Data pre-processing involved cleaning column names, handling missing values, and converting resistance results into binary form-marking "R" (resistant) as 1 and others as 0. To explore how resistance is distributed across hospital areas, pie charts were generated to show resistance frequency by location. Notably, the pediatric ward showed the highest concentration of resistant isolates. Stacked bar charts further revealed which bacteria exhibited the most resistance. Among the most resistant were Staphylococcus haemolyticus, Enterococcus faecium, and Staphylococcus saprophyticus, particularly against ß-lactams (like amoxicillin and cefotaxime) and macrolides (such as azithromycin). Some strains showed signs of multidrug resistance. Beyond visualization, machine learning models were used to predict the hospital origin of isolates based on their resistance profiles. Binary-encoded data served as input for classification models like logistic regression and decision trees. These models achieved promising results, as shown by precision, recall, and F1-score metrics. This approach demonstrates the potential of using predictive analytics alongside traditional surveillance to identify high-risk areas and inform hospital infection control.
+      In summary, this study combines data cleaning, visual analysis, and machine learning to gain insights into antimicrobial resistance trends in hospital settings. The findings highlight the importance of targeted antibiotic stewardship and early detection of resistant strains. This approach can be adapted for broader use in hospitals and contribute to global efforts to control the spread of AMR.
+      The researchers would like to express their sincere gratitude to the Department of Science and Technology - Philippine Council for Health Research and Development (DOST-PCHRD) for providing the financial support that made this research study possible. 
+
+[1] Ventola, C. L. The antibiotic resistance crisis: Part 1: Causes and threats. Pharmacy and Therapeutics, 40(4), 277-283. 2015
+[2] Laxminarayan, R. et. al. Antibiotic resistance-the need for global solutions. The Lancet Infectious Diseases, 13(12), 1057-1098, 2013
+[3] Pedregosa, F. et. al. Scikit-learn: Machine learning in Python. Journal of Machine Learning Research, 12, 2825-2830, 2011
+
+Keywords: antimicrobial resistance, antibiotics, pediatric wards, binary, staphylococcus haemolyticus
+iligan.dc556@s.msumain.edu.ph
+
+
+---------------
+
+------------------------------------------------------------
+
+---------------
+
+------------------------------------------------------------
+
